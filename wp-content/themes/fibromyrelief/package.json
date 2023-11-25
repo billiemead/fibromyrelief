@@ -1,0 +1,38 @@
+{
+    "name": "fibromyrelief",
+    "version": "1.0.0",
+    "description": "fibromyrelief.com Website",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp",
+        "watch": "gulp watchForChanges",
+        "build": "gulp build --prod"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.17.8",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/register": "^7.17.7",
+        "autoprefixer": "^10.4.4",
+        "babel-loader": "^8.2.4",
+        "browser-sync": "^2.29.3",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-postcss": "^9.0.1",
+        "gulp-replace": "^1.1.4",
+        "gulp-sass": "^5.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-zip": "^5.1.0",
+        "vinyl-named": "^1.1.0",
+        "webpack-stream": "^7.0.0",
+        "yargs": "^17.4.0"
+    },
+    "dependencies": {
+        "node-sass": "^7.0.1",
+        "sass": "^1.49.9"
+    }
+}

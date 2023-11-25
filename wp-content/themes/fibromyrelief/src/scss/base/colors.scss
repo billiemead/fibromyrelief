@@ -1,0 +1,43 @@
+$black: #000000;
+$drk_blue: #043a60;
+$drk_gray: #2f2f2f;
+$drk_gray3: #333333;
+$drop_shadow: #061336;
+$FIBROMYRELIEF_blue: #2b71b7;
+$FIBROMYRELIEF_lt_blue: #54C1EA;
+$FIBROMYRELIEF_purple: #524487;
+$FIBROMYRELIEF_yellow: #f4c55c;
+$formblue: #afe2f5;
+$gray_section_bg: #eaeaea;
+$lt_blue: #53c0ea;
+$lt_blue_new: #7BC5EA;
+$lt_gray: #ededed;
+$lt_gray2: #eff0f1;
+$magenta: #eb00ff;
+$med_gray: #707070;
+$med_gray2: #8D8D8D;
+$orange: orange;
+$penbanner-orange: #f4c55c;
+$reviewgrey: #bcc0c4;
+$white: #ffffff;
+$links: #10c9c3;
+$very_lt_gray1: #dddddd;
+$med_gray3: #999999;
+$black_opacity: rgba(0,0,0,0.5);
+
+@mixin hero-drop-shadow {
+    filter: drop-shadow(3px 3px 12px $drop_shadow);
+};
+@mixin drop-down-menu-shadow {
+    box-shadow: 3px 3px 10px -6px $black_opacity;
+    -webkit-box-shadow: 3px 3px 10px -6px $black_opacity;
+    -moz-box-shadow: 3px 3px 10px -6px$black_opacity;
+};
+@mixin error-gradient {
+    background: rgb(81,69,135);
+    background: linear-gradient(45deg, rgba(81,69,135,1) 0%, rgba(68,85,152,1) 12.5%, rgba(53,103,170,1) 25%, rgba(38,119,180,1) 37.5%, rgba(23,134,175,1) 50%, rgba(8,149,170,1) 62.5%, rgba(26,164,187,1) 75%, rgba(55,178,211,1) 87.5%, rgba(83,191,233,1) 100%);
+};
+@mixin error-image-gradient {
+    background: rgb(81,69,135);
+    background-image: url('/wp-content/themes/conall-child/images/FIBROMYRELIEF-full-page-swoosh-404-1920x1385.svg'), linear-gradient(45deg, rgba(81,69,135,1) 0%, rgba(68,85,152,1) 12.5%, rgba(53,103,170,1) 25%, rgba(38,119,180,1) 37.5%, rgba(23,134,175,1) 50%, rgba(8,149,170,1) 62.5%, rgba(26,164,187,1) 75%, rgba(55,178,211,1) 87.5%, rgba(83,191,233,1) 100%);
+};

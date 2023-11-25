@@ -1,0 +1,21 @@
+@import 'font';
+@import "colors";
+
+/* ******* FIBROMYRELIEF BASE START ******* */
+html {
+	scroll-behavior: smooth;
+}
+/* ******* FIBROMYRELIEF GLOBAL LOGO START ******* */
+@media all and (max-width: 1024px) {
+
+}
+/* ******* FIBROMYRELIEF GLOBAL LOGO END ******* */
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+*/
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+/* ******* FIBROMYRELIEF BASE END ******* */
