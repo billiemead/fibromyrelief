@@ -1,27 +1,28 @@
 @import "colors";
 
 /* ******* FIBROMYRELIEF FONTS START ******* */
-span.arial {
-    font-family: Arial, Helvetica, sans-serif;
-}
-@mixin demi-bold($fontf, $size) {
-  font-family: $fontf;
-  font-size: $size + rem !important;
-  font-weight: 600 !important;
-}
-@mixin bold($fontf, $size) {
-  font-family: $fontf;
-  font-size: $size + rem !important;
-  font-weight: 900 !important;
-}
-@mixin italic($fontf, $size) {
-  font-family: $fontf;
-  font-size: $size + rem !important;
+
+$fontfamily: 'museo-sans', sans-serif;
+
+@mixin regular($fontfamily, $size) {
+  font-family: $fontfamily;
+  font-size: $size + px !important;
   font-weight: 300 !important;
 }
-@mixin regular($fontf, $size) {
-  font-family: $fontf;
-  font-size: $size + rem !important;
-  font-weight: 400 !important;
+@mixin italic($fontfamily, $size) {
+  font-family: $fontfamily;
+  font-size: $size + px !important;
+  font-weight: 300 !important;
 }
+@mixin bold($fontfamily, $size) {
+  font-family: $fontfamily;
+  font-size: $size + px !important;
+  font-weight: 500 !important;
+}
+@mixin extra-bold($fontfamily, $size) {
+  font-family: $fontfamily;
+  font-size: $size + px !important;
+  font-weight: 700 !important;
+}
+
 /* ******* FIBROMYRELIEF FONTS END ******* */

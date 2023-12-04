@@ -2,8 +2,51 @@
 @import "../base/font";
 
 /* ******* FIBROMYRELIEF 2023 HEADER START ******* */
-
-
+nav {
+    ul {
+        li {
+            a {
+                color: $white !important;
+            }
+        }
+    }
+}
+.sc_layouts_row_type_compact .sc_layouts_iconed_text:not(.sc_layouts_menu_mobile_button):not(.sc_layouts_menu_mobile_button_burger) .sc_layouts_iconed_text_link .sc_layouts_iconed_text_icon {
+    font-weight: bold;
+    color: $white;
+}
+h1.sc_layouts_title_caption {
+    color: $white;
+    font-weight: 500;
+}
+.elementor-17754 .elementor-element.elementor-element-d7e3365.elementor-view-framed .elementor-icon,
+.elementor-17754 .elementor-element.elementor-element-d7e3365.elementor-view-default .elementor-icon svg {
+    fill: $white !important;
+}
+.elementor-17754 .elementor-element.elementor-element-3b2ec8f:not(.elementor-motion-effects-element-type-background),
+.elementor-17754 .elementor-element.elementor-element-3b2ec8f > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2.sc_item_title.sc_title_title.sc_item_title_style_default.sc_typed {
+    color: $white;
+}
+nav.sc_layouts_menu.sc_layouts_menu_default.sc_layouts_menu_dir_horizontal {
+    li:not(.menu-collapse) > a:after {
+        background-color: #fff;
+    }
+}
+div#top-telephone_sc {
+    a {
+        span.sc_layouts_item_details_line1.sc_layouts_iconed_text_line1 {
+            color: #ffffff;
+        }
+    }
+}
 @media all and (max-width: 1024px) {
 }
 @media all and (max-width: 768px) {

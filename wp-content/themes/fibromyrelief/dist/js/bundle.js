@@ -1,0 +1,1 @@
+jQuery(document).ready((function(n){n(".map-ping, #close-map-icon").on("click",(function(){n("#map_popup_section_2023").toggle()}))}));

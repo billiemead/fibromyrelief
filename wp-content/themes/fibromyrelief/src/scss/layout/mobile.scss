@@ -1,0 +1,26 @@
+@import "../base/colors";
+@import "../base/font";
+
+/* ************ MOBILE START ************ */
+
+.menu_mobile .menu_mobile_widgets_area {
+    background-color: #000 !important;
+}
+
+@media all and (max-width: 1679px) {
+    .menu_mobile .menu_mobile_nav_area>ul>.menu-item>a {
+        font-size: 27px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 576px) {
+}
+@media all and (max-width: 480px) {
+}
+@media all and (max-width: 320px) {
+}
+/* ************ MOBILE END ************ */

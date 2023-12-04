@@ -3,6 +3,58 @@
 
 /* ******* FIBROMYRELIEF START HOME PAGE ******* */
 
+body.home-page {
+    section#hero-section {
+
+    }
+    section#intro-section {
+
+    }
+    section#photo-offer-section {
+        padding: 120px 0 120px 0px;
+    }
+    section#shop-section {
+
+    }
+    section#pill-stats-section {
+        div.elementor-counter-title {
+            color: #ffffff !important;
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+    section#info-section {
+
+    }
+    section#newsletter-section {
+        h1.sc_item_title {
+            color: $white !important;
+        }
+    }
+    section#testimonials-section {
+
+    }
+    section#contact-form-section {
+        h1 {
+            span.sc_item_title_text {
+                color: $white;
+            }
+        }
+    }
+    section#blog-news-section {
+        h5.sc_blogger_item_title.entry-title {
+            a {
+                color: #ffffff !important;
+            }
+        }
+    }
+    section#blog-spacer-section {
+
+    }
+}
+span.sc_button_title {
+    color: $white;
+}
 
 @media all and (max-width: 1024px) {
 }

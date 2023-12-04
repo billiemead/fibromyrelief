@@ -2,6 +2,26 @@
 @import "../base/font";
 
 /* ******* FIBROMYRELIEF 2023 FOOTER END ******* */
+.footer_wrap [class*="scheme_"].sc_layouts_row.sc_layouts_row_type_compact .sc_layouts_item a:not(.sc_button):not([class*="button"]) {
+    color: #fff !important;
+}
+[class*="scheme_"].sidebar .sc_layouts_row_type_compact .socials_wrap .social_item .social_icon,
+[class*="scheme_"].footer_wrap .sc_layouts_row_type_compact .socials_wrap .social_item .social_icon {
+    color: #00adee !important;
+    background-color: transparent !important;
+}
+.sc_layouts_row_type_compact .sc_layouts_item,
+[class*="scheme_"].sc_layouts_row_type_compact .sc_layouts_item {
+    color: #aaaaaa !important;
+}
+footer {
+    .sc_layouts_row_type_narrow .sc_layouts_item a:not(.sc_button):not([class*="button"]),
+    [class*="scheme_"].sc_layouts_row_type_narrow .sc_layouts_item a:not(.sc_button):not([class*="button"]) {
+        color: #ffffff !important;
+    }
+
+}
+
 
 @media all and (max-width: 1024px) {
 }

@@ -1,0 +1,29 @@
+@import "../base/colors";
+@import "../base/font";
+
+/* ******* FORMS START ******* */
+
+#style-6.mc4wp-form label {
+    color: #fff !important;
+}
+input[type="radio"] + .wpcf7-list-item-label a,
+input[type="checkbox"] + .wpcf7-list-item-label a {
+    color: #fff;
+}
+form#style-6.mc4wp-form div.mc4wp-form-fields button,
+form#style-6.mc4wp-form div.mc4wp-form-fields input[type="submit"] {
+    border-color: #ed2025 !important;
+    background-color: #ed2025 !important;
+}
+
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 576px) {
+}
+@media all and (max-width: 480px) {
+}
+@media all and (max-width: 320px) {
+}
+/* ******* FORMS END ******* */
