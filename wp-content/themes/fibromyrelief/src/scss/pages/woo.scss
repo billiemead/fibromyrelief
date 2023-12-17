@@ -1,0 +1,22 @@
+@import "../base/colors";
+@import "../base/font";
+
+/* ******* FIBROMYRELIEF START WOOCOMMERCE ******* */
+
+.woocommerce_status_bar {
+    .num {
+        background-color: $fmr_blue ;
+    }
+}
+
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 576px) {
+}
+@media all and (max-width: 480px) {
+}
+@media all and (max-width: 320px) {
+}
+/* ******* FIBROMYRELIEF END WOOCOMMERCE ******* */

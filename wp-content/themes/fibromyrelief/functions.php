@@ -20,7 +20,7 @@ function fibromyrelief_assets()
     wp_enqueue_script('fibromyrelief_js', get_theme_file_uri() . '/dist/js/bundle.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('custom_js', get_stylesheet_directory_uri() . '/fibromyrelief-scripts.js', array(), '1.0.0', true);
 }
-add_action('wp_enqueue_scripts', 'fibromyrelief_assets', 99);
+add_action('wp_enqueue_scripts', 'fibromyrelief_assets', 99999);
 
 // WordPress FMR Admin CSS
 function fibromyrelief_admin_style()
@@ -37,7 +37,6 @@ add_action('admin_enqueue_scripts', 'fibromyrelief_admin_style');
 add_filter( 'post_row_actions', 'fmr_duplicate_post_link', 10, 2 );
 // for "page" post type
 add_filter( 'page_row_actions', 'fmr_duplicate_post_link', 10, 2 );
-
 function fmr_duplicate_post_link( $actions, $post ) {
 
 	if( ! current_user_can( 'edit_posts' ) ) {
@@ -60,12 +59,10 @@ function fmr_duplicate_post_link( $actions, $post ) {
 
 	return $actions;
 }
-
 /*
  * Function creates post duplicate as a draft and redirects then to the edit post screen
  */
 add_action( 'admin_action_fmr_duplicate_post_as_draft', 'fmr_duplicate_post_as_draft' );
-
 function fmr_duplicate_post_as_draft(){
 
 	// check if post ID has been provided and action
@@ -169,12 +166,10 @@ function fmr_duplicate_post_as_draft(){
 	}
 
 }
-
 /*
  * In case we decided to add admin notices
  */
 add_action( 'admin_notices', 'fimr_duplication_admin_notice' );
-
 function fimr_duplication_admin_notice() {
 
 	// Get the current screen
@@ -191,7 +186,6 @@ function fimr_duplication_admin_notice() {
 
     }
 }
-
 add_filter('body_class', 'custom_class');
 function custom_class($classes)
 {
