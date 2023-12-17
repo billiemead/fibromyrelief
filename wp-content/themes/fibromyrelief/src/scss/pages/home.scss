@@ -2,7 +2,14 @@
 @import "../base/font";
 
 /* ******* FIBROMYRELIEF START HOME PAGE ******* */
-
+.elementor-18994 .elementor-element.elementor-element-4b45b201:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap,
+.elementor-18994 .elementor-element.elementor-element-4b45b201 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #678997  !important;
+}
+.sc_blogger_default.sc_blogger_default_over_bottom .sc_item_featured .mask {
+    background-color: rgba(180, 20, 20, 0.6) !important;
+    opacity: 1 !important;
+}
 body.home-page {
     section#hero-section {
 

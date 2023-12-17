@@ -21,6 +21,27 @@ footer {
     }
 
 }
+[class*="scheme_"].footer_wrap, .footer_wrap [class*="scheme_"].vc_row {
+    background-color: #555 !important;
+}
+.elementor-18842 .elementor-element.elementor-element-4347202:not(.elementor-motion-effects-element-type-background),
+.elementor-18842 .elementor-element.elementor-element-4347202 > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+.elementor-18842 .elementor-element.elementor-element-4c8b8f54:not(.elementor-motion-effects-element-type-background),
+.elementor-18842 .elementor-element.elementor-element-4c8b8f54 > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+.elementor-18842 .elementor-element.elementor-element-67f2590d:not(.elementor-motion-effects-element-type-background),
+.elementor-18842 .elementor-element.elementor-element-67f2590d > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+.elementor-18842 .elementor-element.elementor-element-1bc6a37f:not(.elementor-motion-effects-element-type-background),
+.elementor-18842 .elementor-element.elementor-element-1bc6a37f > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+.elementor-18842 .elementor-element.elementor-element-1bc6a37f:not(.elementor-motion-effects-element-type-background),
+.elementor-18842 .elementor-element.elementor-element-1bc6a37f > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+.elementor-18842 .elementor-element.elementor-element-2139078c:not(.elementor-motion-effects-element-type-background),
+.elementor-18842 .elementor-element.elementor-element-2139078c > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #555 !important;
+}
+.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+    border-top: 1px solid #fff !important
+}
+
 
 
 @media all and (max-width: 1024px) {

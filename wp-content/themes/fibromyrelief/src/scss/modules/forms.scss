@@ -15,7 +15,15 @@ form#style-6.mc4wp-form div.mc4wp-form-fields input[type="submit"] {
     border-color: #ed2025 !important;
     background-color: #ed2025 !important;
 }
-
+form.mc4wp-form .mc4wp-alert {
+    p {
+        color: $white;
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 800;
+    }
+}
 @media all and (max-width: 1024px) {
 }
 @media all and (max-width: 768px) {

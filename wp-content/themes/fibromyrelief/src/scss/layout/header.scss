@@ -11,12 +11,18 @@ nav {
         }
     }
 }
+header.top_panel_custom_fmr-header-title-hero {
+    .sc_layouts_row_type_compact .sc_layouts_item a:not(.sc_button):not([class*="button"]), [class*="scheme_"].sc_layouts_row_type_compact .sc_layouts_item a:not(.sc_button):not([class*="button"]) {
+        color: #000 !important;
+    }
+}
+
 .sc_layouts_row_type_compact .sc_layouts_iconed_text:not(.sc_layouts_menu_mobile_button):not(.sc_layouts_menu_mobile_button_burger) .sc_layouts_iconed_text_link .sc_layouts_iconed_text_icon {
     font-weight: bold;
     color: $white;
 }
 h1.sc_layouts_title_caption {
-    color: $white;
+    color: $white !important;
     font-weight: 500;
 }
 .elementor-17754 .elementor-element.elementor-element-d7e3365.elementor-view-framed .elementor-icon,

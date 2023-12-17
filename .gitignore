@@ -1,6 +1,7 @@
 # WordPress #
 ############
 wp-config-local.php
+wp-config.php
 wp-cli.local.yml
 wp-content/uploads
 wp-content/upgrade/
