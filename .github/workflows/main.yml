@@ -1,0 +1,32 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: 65.60.38.190
+        username: billiemead@fibromyrelief.com
+        password: ${{ secrets.ftp_password }}
+        port: 21
+        protocol: ftp
+        server-dir: /home/healthp2/public_html/fibromyrelief.com/
+        dry-run: true
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/.vscode*
+          **/.vscode*/**
+          **/.githib*
+          **/.github*/**
+          **/node_modules/**
+          wp-config.php
+          wp-content/uploads/**
+          wp-content/upgrade/**
+          wp-content/upgrade-temp-backup/**
