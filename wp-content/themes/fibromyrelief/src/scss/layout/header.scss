@@ -12,8 +12,22 @@ nav {
     }
 }
 header.top_panel_custom_fmr-header-title-hero {
+    div.sc_layouts_cart  {
+        div.sc_layouts_cart_widget.widget_area {
+            top: 69px;
+            background-color: $text;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            a.remove.remove_from_cart_button:after {
+                color: $white;
+            }
+        }
+    }
+
+}
+header.top_panel_custom_fmr-header-title-hero {
     .sc_layouts_row_type_compact .sc_layouts_item a:not(.sc_button):not([class*="button"]), [class*="scheme_"].sc_layouts_row_type_compact .sc_layouts_item a:not(.sc_button):not([class*="button"]) {
-        color: #000 !important;
+
     }
 }
 

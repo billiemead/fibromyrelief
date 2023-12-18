@@ -3,9 +3,135 @@
 
 /* ******* FIBROMYRELIEF START WOOCOMMERCE ******* */
 
+div.sc_icons_divider3.color_style_dark div.sc_icons_item:hover {
+    background-color: #ED2025;
+    color: #fff !important;
+}
+div.sc_icons_divider3.color_style_dark div.sc_icons_item:hover h4.sc_icons_item_title,
+div.sc_icons_divider3.color_style_dark div.sc_icons_item:hover h4.sc_icons_item_title span,
+div.sc_icons_divider3.color_style_dark div.sc_icons_item:hover h4.sc_icons_item_title a,
+div.sc_icons_divider3.color_style_dark div.sc_icons_item h4.sc_icons_item_title a:hover {
+    color: #fff;
+}
+div.sc_icons_divider3.color_style_dark div.sc_icons_item:hover div.sc_icons_item_description {
+    color: #fff !important;
+}
+div.sc_icons_divider3.color_style_dark div.sc_icons_item:hover div.sc_icons_icon {
+    color: #fff;
+}
+
 .woocommerce_status_bar {
     .num {
         background-color: $fmr_blue ;
+    }
+}
+
+body.store-page {
+    div.woocommerce {
+        ul.products {
+            li.product {
+                div.post_data {
+                    h2.woocommerce-loop-product__title {
+                        a {
+                            font-size: 28px;
+
+                        }
+                    }
+                    span.price {
+                        font-size: 28px;
+                        line-height: 1em;
+                        font-weight: bold;
+                        margin: 11px 0 0 0;
+
+                        span.amount {
+                            color: $fmr_red !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.single {
+    div.body_wrap {
+        div.page_wrap {
+            div.page_content_wrap {
+                div.content_wrap {
+                    div.content {
+                        article.post_item_single.post_type_product {
+                            div.product {
+                                div.woocommerce-product-gallery {
+                                    a.woocommerce-product-gallery__trigger {
+
+                                    }
+                                    div.flex-viewport {
+                                        div.woocommerce-product-gallery__wrapper {
+                                            div.woocommerce-product-gallery__image {
+                                                img {
+                                                    border-radius: 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    ol.flex-control-nav.flex-control-thumbs {
+                                        li {
+                                            img {
+                                                border-radius: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                                div.summary {
+                                    span.onsale {
+                                        color: $white;
+                                    }
+                                    h1.product_title.entry-title {
+
+                                    }
+                                    p.price {
+                                        span.woocommerce-Price-amount.amount {
+                                            color: $black;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                    div.woocommerce-product-details__short-description {
+
+                                    }
+                                    form.cart {
+                                        div.quantity.inited {
+                                            input.input-text.qty {
+                                                border-color: #bbbbbb !important;
+                                                color: #aaaaaa;
+                                            }
+                                            span {
+                                                color: #bbbbbb;
+                                            }
+                                        }
+                                        button.single_add_to_cart_button.button.alt {
+                                            color: $white;
+                                            background-color: $fmr_red !important;
+                                        }
+                                        div.tinv-wraper {
+                                            a.tinvwl_add_to_wishlist_button {
+                                                color: $white !important;
+                                                background-color: $fmr_blue !important;
+                                            }
+                                        }
+                                        div.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart.tinvwl-woocommerce_after_add_to_cart_button {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                div.woocommerce-tabs {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

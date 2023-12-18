@@ -3,12 +3,12 @@
 
 /* ******* FIBROMYRELIEF 2023 FOOTER END ******* */
 .footer_wrap [class*="scheme_"].sc_layouts_row.sc_layouts_row_type_compact .sc_layouts_item a:not(.sc_button):not([class*="button"]) {
-    color: #fff !important;
+    color: $white !important;
 }
 [class*="scheme_"].sidebar .sc_layouts_row_type_compact .socials_wrap .social_item .social_icon,
 [class*="scheme_"].footer_wrap .sc_layouts_row_type_compact .socials_wrap .social_item .social_icon {
-    color: #00adee !important;
-    background-color: transparent !important;
+    color: $white !important;
+    background-color: $fmr_blue !important;
 }
 .sc_layouts_row_type_compact .sc_layouts_item,
 [class*="scheme_"].sc_layouts_row_type_compact .sc_layouts_item {
@@ -17,7 +17,7 @@
 footer {
     .sc_layouts_row_type_narrow .sc_layouts_item a:not(.sc_button):not([class*="button"]),
     [class*="scheme_"].sc_layouts_row_type_narrow .sc_layouts_item a:not(.sc_button):not([class*="button"]) {
-        color: #ffffff !important;
+        color: $white !important;
     }
 
 }
@@ -39,7 +39,7 @@ footer {
     background-color: #555 !important;
 }
 .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
-    border-top: 1px solid #fff !important
+    border-top: 1px solid $white !important
 }
 
 
